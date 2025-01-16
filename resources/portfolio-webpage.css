@@ -36,8 +36,8 @@ header h1 {
 .side_links {
     display: flex;
     justify-content: flex-start;
-    border-right: 5px solid #9CFFDB;
-    border-bottom: 5px solid #9CFFDB;
+    border-right: 4px solid #4DE3FF;
+    border-bottom: 4px solid #4DE3FF;
 }
 
 .side_links ul {
@@ -53,12 +53,12 @@ header h1 {
 
 .side_links ul li {
     padding: 10px;
-    border-bottom: 2.5px solid #9CFFDB;
+    border-bottom: 2px solid #4DE3FF;
 }
 
 .side_links ul li a {
     text-decoration: none;
-    color: #4DE3FF;
+    color: #9CFFDB;
 }
 
 .about_me {
@@ -66,17 +66,20 @@ header h1 {
     flex-direction: column;
     justify-content: flex-end;    
     align-items: center;
-    border-bottom: 5px solid #9CFFDB;
-    background-color: #6B529E;
+    background-color: #6C83E4;
 }
 
 .about_me h2 {
-    color: #4DE3FF;
+    color: #9CFFDB;
 }
 
 .about_me p {
+    text-align: center;
     margin: 1rem 6.25rem;
-    color: #4DE3FF;
+    padding: 10px 0;
+    color: #9CFFDB;
+    border-top: 1px solid #4DE3FF;
+    border-bottom: 1px solid #4DE3FF;
 }
 
 .projects {
@@ -88,7 +91,7 @@ header h1 {
 }
 
 .projects h2 {
-    color: #4DE3FF;
+    color: #9CFFDB;
 }
 
 .projects ul {
@@ -97,7 +100,7 @@ header h1 {
 
 .projects ul li a {
     text-decoration: none;
-    color: #4DE3FF;
+    color: #9CFFDB;
 }
 
 .skills img {
