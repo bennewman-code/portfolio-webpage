@@ -82,6 +82,10 @@ header h1 {
     border-bottom: 1px solid #4DE3FF;
 }
 
+.main_content {
+    background-color: #6C83E4;
+}
+
 .projects {
     display: flex;
     flex-direction: column;
@@ -103,9 +107,17 @@ header h1 {
     color: #9CFFDB;
 }
 
+.skills h2 {
+    color: #9CFFDB;
+}
+
 .skills img {
     max-width: 100%;
     height: auto;
+}
+
+footer {
+    background-color: #6C83E4;
 }
 
 .contacts {
@@ -113,4 +125,12 @@ header h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.contacts h2 {
+    color: #9CFFDB;
+}
+
+.contacts h3 {
+    color: #9CFFDB;
 }
