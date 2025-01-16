@@ -8,6 +8,11 @@ html {
     font-size: 16px;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header h1 {
     color: white;
     display: flex;
@@ -21,6 +26,7 @@ header h1 {
     width: 100%;
     height: 300px;
     padding: 40px;
+    box-sizing: border-box;
 }
 
 .banner_two {
@@ -30,6 +36,13 @@ header h1 {
 .side_links {
     display: flex;
     justify-content: flex-start;
+    border-right: 5px solid rgb(150, 140, 140);
+    border-bottom: 5px solid rgb(150, 140, 140);
+}
+
+.side_links ul {
+    list-style-type: none;
+    padding: 0 10px;
 }
 
 .about_me {
@@ -37,6 +50,7 @@ header h1 {
     flex-direction: column;
     justify-content: flex-end;    
     align-items: center;
+    border-bottom: 5px solid rgb(150, 140, 140);
 }
 
 .about_me p {
