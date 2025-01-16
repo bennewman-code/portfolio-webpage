@@ -36,8 +36,8 @@ header h1 {
 .side_links {
     display: flex;
     justify-content: flex-start;
-    border-right: 5px solid #DEB992;
-    border-bottom: 5px solid #DEB992;
+    border-right: 3px solid #4DE3FF;
+    border-bottom: 3px solid #4DE3FF;
 }
 
 .side_links ul {
@@ -46,19 +46,19 @@ header h1 {
     justify-content: space-between;
     height: 100%;
     list-style-type: none;
-    background-color: #051622;
+    background-color: #6C83E4;
     padding: 0;
     margin: 0;
 }
 
 .side_links ul li {
     padding: 10px;
-    border-bottom: 2.5px solid #DEB992;
+    border-bottom: 2px solid #4DE3FF;
 }
 
 .side_links ul li a {
     text-decoration: none;
-    color: #1BA098;
+    color: #9CFFDB;
 }
 
 .about_me {
@@ -66,17 +66,24 @@ header h1 {
     flex-direction: column;
     justify-content: flex-end;    
     align-items: center;
-    border-bottom: 5px solid #DEB992;
-    background-color: #051622;
+    background-color: #6C83E4;
 }
 
 .about_me h2 {
-    color: #1BA098;
+    color: #9CFFDB;
 }
 
 .about_me p {
+    text-align: center;
     margin: 1rem 6.25rem;
-    color: #1BA098;
+    padding: 10px 0;
+    color: #9CFFDB;
+    border-top: 1px solid #4DE3FF;
+    border-bottom: 1px solid #4DE3FF;
+}
+
+.main_content {
+    background-color: #6C83E4;
 }
 
 .projects {
@@ -84,11 +91,11 @@ header h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #051622;
+    background-color: #6C83E4;
 }
 
 .projects h2 {
-    color: #1BA098;
+    color: #9CFFDB;
 }
 
 .projects ul {
@@ -97,7 +104,11 @@ header h1 {
 
 .projects ul li a {
     text-decoration: none;
-    color: #1BA098;
+    color: #9CFFDB;
+}
+
+.skills h2 {
+    color: #9CFFDB;
 }
 
 .skills img {
@@ -105,9 +116,21 @@ header h1 {
     height: auto;
 }
 
+footer {
+    background-color: #6C83E4;
+}
+
 .contacts {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.contacts h2 {
+    color: #9CFFDB;
+}
+
+.contacts h3 {
+    color: #9CFFDB;
 }
