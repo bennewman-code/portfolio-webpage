@@ -36,8 +36,8 @@ header h1 {
 .side_links {
     display: flex;
     justify-content: flex-start;
-    border-right: 4px solid #4DE3FF;
-    border-bottom: 4px solid #4DE3FF;
+    border-right: 3px solid #4DE3FF;
+    border-bottom: 3px solid #4DE3FF;
 }
 
 .side_links ul {
