@@ -67,10 +67,16 @@ header h1 {
     justify-content: flex-end;    
     align-items: center;
     border-bottom: 5px solid #DEB992;
+    background-color: #051622;
+}
+
+.about_me h2 {
+    color: #1BA098;
 }
 
 .about_me p {
     margin: 1rem 6.25rem;
+    color: #1BA098;
 }
 
 .projects {
@@ -78,6 +84,20 @@ header h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #051622;
+}
+
+.projects h2 {
+    color: #1BA098;
+}
+
+.projects ul {
+    list-style-type: none;
+}
+
+.projects ul li a {
+    text-decoration: none;
+    color: #1BA098;
 }
 
 .skills img {
