@@ -12,6 +12,7 @@ header h1 {
     display: flex;
     justify-content: center;
     width: 100%;
+    background-color: aqua;
 }
 
 .banner_two {
@@ -28,6 +29,10 @@ header h1 {
     flex-direction: column;
     justify-content: flex-end;    
     align-items: center;
+}
+
+.about_me p {
+    margin: 1rem 6.25rem;
 }
 
 .projects {
