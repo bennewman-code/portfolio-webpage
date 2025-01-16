@@ -30,3 +30,21 @@ header h1 {
     align-items: center;
 }
 
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
