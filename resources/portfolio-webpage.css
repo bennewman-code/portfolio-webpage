@@ -36,13 +36,29 @@ header h1 {
 .side_links {
     display: flex;
     justify-content: flex-start;
-    border-right: 5px solid rgb(150, 140, 140);
-    border-bottom: 5px solid rgb(150, 140, 140);
+    border-right: 5px solid #DEB992;
+    border-bottom: 5px solid #DEB992;
 }
 
 .side_links ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
     list-style-type: none;
-    padding: 0 10px;
+    background-color: #051622;
+    padding: 0;
+    margin: 0;
+}
+
+.side_links ul li {
+    padding: 10px;
+    border-bottom: 2.5px solid #DEB992;
+}
+
+.side_links ul li a {
+    text-decoration: none;
+    color: #1BA098;
 }
 
 .about_me {
@@ -50,7 +66,7 @@ header h1 {
     flex-direction: column;
     justify-content: flex-end;    
     align-items: center;
-    border-bottom: 5px solid rgb(150, 140, 140);
+    border-bottom: 5px solid #DEB992;
 }
 
 .about_me p {
