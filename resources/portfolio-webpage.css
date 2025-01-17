@@ -140,6 +140,10 @@ footer {
     margin: 0px;
 }
 
+.contacts a {
+    text-decoration: none;
+}
+
 .contacts .email {
     border-top: 1px solid #4DE3FF;
     padding: 20px 0;
