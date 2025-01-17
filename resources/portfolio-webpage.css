@@ -133,4 +133,14 @@ footer {
 
 .contacts h3 {
     color: #9CFFDB;
+    margin: 0px;
+}
+
+.contacts .email {
+    border-top: 1px solid #4DE3FF;
+    padding: 20px 0;
+}
+
+.contacts .phone {
+    margin-bottom: 15px;
 }
