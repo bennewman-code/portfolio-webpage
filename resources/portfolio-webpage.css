@@ -61,6 +61,10 @@ header h1 {
     color: #9CFFDB;
 }
 
+.side_links .contact_link {
+    border-bottom: none;
+}
+
 .about_me {
     display: flex;
     flex-direction: column;
