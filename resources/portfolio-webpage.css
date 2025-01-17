@@ -11,6 +11,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background-color: #6C83E4;
 }
 
 header h1 {
@@ -88,6 +89,23 @@ header h1 {
 
 .main_content {
     background-color: #6C83E4;
+}
+
+.main_content .back a {
+    display: inline-flex;
+    text-decoration: none;
+    color: #9CFFDB;
+    padding: 10px;
+    border-right: 3px solid #4DE3FF;
+    border-bottom: 3px solid #4DE3FF;
+}
+
+.info h3 {
+    padding-left: 10px;
+}
+
+.info p {
+    padding-left: 10px;
 }
 
 .projects {
